@@ -19,7 +19,7 @@ It’s structured to align with the progression of a typical introductory progra
 ## 🚀 How to Get Started
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/programming1.git
+   git clone https://github.com/kretekarfolyam/Programming1_kretek.git
    ```
 
 2. **Install Java**:
@@ -36,7 +36,7 @@ It’s structured to align with the progression of a typical introductory progra
    Solve the provided exercises and feel free to modify the code to experiment with different solutions.
 
 ## 💬 Join the Discussion
-Have questions, feedback, or ideas? Check out the [Discussions](https://github.com/kretekarfolyam/programming1/discussions/1) tab! It’s a space for:
+Have questions, feedback, or ideas? Check out the [Discussions]([https://github.com/kretekarfolyam/Programming1_kretek/discussions/1) tab! It’s a space for:
 - Asking questions about exercises or concepts.
 - Sharing resources and learning tips.
 - Suggesting new features or improvements for the repository.
