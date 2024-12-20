@@ -18,15 +18,16 @@ public class MatrixMultiplication {
         int[][] C = new int[rowsA][colsB];
 
         // Matrix multiplication
-        TODO
+        for (int i = 0; i < rowsA; i++) {
+            for (int j = 0; j < colsB; j++) {
+                for (int k = 0; k < colsA; k++) {
+                    C[i][j] += A[i][k] * B[k][j];
+                }
+            }
+        }
 
         // Print result matrix
-        System.out.println("Result Matrix:");
-        for (int[] row : C) {
-            for (int value : row) {
-                System.out.print(value + " ");
-            }
-            System.out.println();
-        }
+
+
     }
 }

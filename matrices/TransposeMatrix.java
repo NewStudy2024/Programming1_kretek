@@ -10,10 +10,9 @@ public class TransposeMatrix {
         int[][] T = new int[cols][rows];
 
         // Transpose logic
-        TODO
 
         // Print transposed matrix
         System.out.println("Transposed Matrix:");
-        TODO
+
     }
 }

@@ -15,9 +15,19 @@ public class MatrixElementWise {
         int[][] C = new int[rows][cols];
 
         // Element-wise addition
-        TODO
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                C[i][j] = A[i][j] + B[i][j];
+            }
+        }
 
         // Print result matrix
-        TODO
+        System.out.println("Resultant Matrix after Element-wise Addition:");
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                System.out.print(C[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }
