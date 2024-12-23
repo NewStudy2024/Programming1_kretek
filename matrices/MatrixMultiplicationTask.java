@@ -1,4 +1,4 @@
-public class MatrixMultiplication {
+public class MatrixMultiplicationTask {
     public static void main(String[] args) {
         int[][] A = {
             {1, 2, 3},
@@ -18,10 +18,10 @@ public class MatrixMultiplication {
         int[][] C = new int[rowsA][colsB];
 
         // Matrix multiplication
-        TODO
+        //TODO;
 
         // Print result matrix
-        TODO
+        //TODO
 
     }
 }

@@ -1,4 +1,4 @@
-public class TransposeMatrix {
+public class TransposeMatrixTask {
     public static void main(String[] args) {
         int[][] A = {
             {1, 2, 3},
@@ -10,10 +10,10 @@ public class TransposeMatrix {
         int[][] T = new int[cols][rows];
 
         // Transpose logic
-        TODO
+        //TODO
           
         // Print transposed matrix
-        TODO
+        //TODO
 
     }
 }
