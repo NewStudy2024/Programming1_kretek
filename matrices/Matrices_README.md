@@ -1,5 +1,3 @@
-GitHub does not natively support LaTeX-like mathematical notation (e.g., `\sum` or `\forall`) in Markdown files. To make the explanation clear and readable on GitHub, you can rewrite the formula using plain text or pseudocode. Here's an updated version of the `README.md` that works properly on GitHub:
-
 ---
 
 # Matrix Operations - Programming 1
