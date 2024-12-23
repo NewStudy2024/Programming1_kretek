@@ -1,4 +1,4 @@
-public class MatrixElementWise {
+public class MatrixElementWiseSolution {
     public static void main(String[] args) {
         int[][] A = {
             {1, 2, 3},
