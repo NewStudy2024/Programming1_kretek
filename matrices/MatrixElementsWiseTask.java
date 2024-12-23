@@ -18,7 +18,6 @@ public class MatrixElementWise {
         TODO
 
         // Print result matrix
-        System.out.println("Resultant Matrix after Element-wise Addition:");
         TODO
     }
 }
