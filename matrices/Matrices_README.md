@@ -1,4 +1,4 @@
-Here’s the updated `README.md` using code blocks for matrices:
+GitHub does not natively support LaTeX-like mathematical notation (e.g., `\sum` or `\forall`) in Markdown files. To make the explanation clear and readable on GitHub, you can rewrite the formula using plain text or pseudocode. Here's an updated version of the `README.md` that works properly on GitHub:
 
 ---
 
@@ -13,10 +13,11 @@ This repository contains Java programs for performing various matrix operations.
 This program performs element-wise addition of two matrices \( A \) and \( B \), producing a resulting matrix \( C \).
 
 **Mathematical Explanation:**  
-For two matrices \( A \) and \( B \) of the same dimensions \( m \times n \):  
-\[
-C[i][j] = A[i][j] + B[i][j], \quad \forall \, 0 \leq i < m, \, 0 \leq j < n
-\]  
+For two matrices \( A \) and \( B \) of the same dimensions \( m \times n \), each element of \( C \) is computed as:
+```
+C[i][j] = A[i][j] + B[i][j]
+```
+where `i` is the row index and `j` is the column index.
 
 **Example:**  
 Given matrices:  
@@ -40,10 +41,11 @@ C = [  8  10  12 ]
 This program multiplies two matrices \( A \) and \( B \), producing a resulting matrix \( C \) if the number of columns in \( A \) equals the number of rows in \( B \).
 
 **Mathematical Explanation:**  
-For two matrices \( A \) of dimensions \( m \times p \) and \( B \) of dimensions \( p \times n \):  
-\[
-C[i][j] = \sum_{k=0}^{p-1} A[i][k] \cdot B[k][j], \quad \forall \, 0 \leq i < m, \, 0 \leq j < n
-\]  
+For matrices \( A \) of size \( m \times p \) and \( B \) of size \( p \times n \), the element \( C[i][j] \) is calculated as:
+```
+C[i][j] = A[i][0] * B[0][j] + A[i][1] * B[1][j] + ... + A[i][p-1] * B[p-1][j]
+```
+where `i` is the row index of \( A \), and `j` is the column index of \( B \).
 
 **Example:**  
 Given matrices:  
@@ -68,10 +70,11 @@ C = [ 58  64 ]
 This program computes the transpose of a given matrix \( A \), producing a new matrix \( T \), where rows become columns and columns become rows.
 
 **Mathematical Explanation:**  
-For a matrix \( A \) of dimensions \( m \times n \), the transpose \( T \) has dimensions \( n \times m \), and:  
-\[
-T[j][i] = A[i][j], \quad \forall \, 0 \leq i < m, \, 0 \leq j < n
-\]  
+For a matrix \( A \) of size \( m \times n \), the transpose \( T \) is computed as:
+```
+T[j][i] = A[i][j]
+```
+where `i` is the row index, and `j` is the column index.
 
 **Example:**  
 Given matrix:  
@@ -102,11 +105,5 @@ T = [ 1  4 ]
    java MatrixElementWise
    ```
    Repeat for the other tasks by replacing the class name as needed.  
-
----
-
-## License
-
-This project is open-source under the MIT License.
 
 ---
