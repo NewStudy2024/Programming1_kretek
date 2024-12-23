@@ -18,8 +18,8 @@ public class ChristmasTree {
                 } else {
                     System.out.print("*");
                 }
-                System.out.println();
             }
+            System.out.println();
         }
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < n - 1; j++) {
