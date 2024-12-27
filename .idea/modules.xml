@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Guess the number/Guess the number.iml" filepath="$PROJECT_DIR$/Guess the number/Guess the number.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programming1_kretek.iml" filepath="$PROJECT_DIR$/Programming1_kretek.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple greeting/simple greeting.iml" filepath="$PROJECT_DIR$/simple greeting/simple greeting.iml" />
     </modules>
