@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/basic banking app/basic banking app.iml" filepath="$PROJECT_DIR$/basic banking app/basic banking app.iml" />
       <module fileurl="file://$PROJECT_DIR$/rock paper scissors/rock paper scissors.iml" filepath="$PROJECT_DIR$/rock paper scissors/rock paper scissors.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple greeting/simple greeting.iml" filepath="$PROJECT_DIR$/simple greeting/simple greeting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tic tac toe/tic tac toe.iml" filepath="$PROJECT_DIR$/tic tac toe/tic tac toe.iml" />
       <module fileurl="file://$PROJECT_DIR$/todo/todo.iml" filepath="$PROJECT_DIR$/todo/todo.iml" />
     </modules>
   </component>
